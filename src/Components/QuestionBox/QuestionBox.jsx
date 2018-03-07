@@ -12,11 +12,14 @@ const QuestionBox = props => (
       {props.question}
     </div>
     <div className="options">
-      {
-        Object.values(props.options).forEach((option) => {
-          <OptionsPane option={option} />;
-    })
-  }
+      {Object.values(props.options).map(option => (
+        <OptionsPane
+          option={option}
+          // qid={props.qid}
+          // handleOptionChange={(event, qid) => props.handleOptionChange(event, qid)}
+          // ansPersist={props.ansPersist}
+        />
+      ))}
     </div>
   </div>
 );
