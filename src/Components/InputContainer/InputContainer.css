@@ -1,4 +1,10 @@
 .Input-Box{
     border:2px solid black;
-    font-size: 190%;
+    font-size: 150%;
+    width: 190px;
+    height:30px;
+}
+.Label-Text{
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px; */
 }

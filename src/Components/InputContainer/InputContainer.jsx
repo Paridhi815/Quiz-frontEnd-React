@@ -4,7 +4,7 @@ import './InputContainer.css';
 
 const InputContainer = props => (
   <div className="InputContainer">
-    <p>{props.labelText}</p>
+    <p className="Label-Text">{props.labelText}</p>
     <input type="text" className="Input-Box" onChange={event => props.onInputChange(event)} />
   </div>
 );

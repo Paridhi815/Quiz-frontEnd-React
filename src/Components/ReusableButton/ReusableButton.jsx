@@ -4,7 +4,7 @@ import './ReusableButton.css';
 
 const ReusableButton = props => (
   <div className="ReusableButton">
-    <button onClick={() => props.onButtonClick()}>{props.buttonText}</button>
+    <button className="Button" onClick={() => props.onButtonClick()}><p className="Text">{props.buttonText}</p></button>
   </div>
 );
 

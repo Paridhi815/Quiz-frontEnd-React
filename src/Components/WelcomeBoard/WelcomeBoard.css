@@ -2,7 +2,8 @@
     background: rgb(106,197,240);
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    width: 50%;
     height: 100%;
     font-family: Impact;
     font-size: 40px;
