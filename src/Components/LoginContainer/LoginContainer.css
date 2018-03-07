@@ -1,0 +1,6 @@
+.LoginContainer{
+    display: flex;
+    background-color: rgb(23,35,75);
+    flex-grow: 1;
+    /* height: 100vh; */
+}
